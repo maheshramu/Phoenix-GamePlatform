@@ -1,3 +1,2 @@
-# Sprint 0 Release 0.2
-
-Governance and standards package.
+# Sprint 0 Release 0.3
+Repository enhancements.
