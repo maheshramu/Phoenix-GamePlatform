@@ -1,3 +1,2 @@
-# Sprint 0 Release 0.4
-
-Foundation specification expansion.
+# Sprint1 Release1.2
+Expanded PRD.
