@@ -1,88 +1,225 @@
 ---
-id: PHX-DOC-0004
-title: Product Requirements Document
-version: 0.1
-status: In Review
+documentId: PHX-DOC-0004
 owner: Product Architecture
+release: Sprint 1
+status: Draft
+title: Product Requirements Document (PRD)
+version: 1.0.0
 ---
 
-# Chapter 1 – Executive Summary
+# Project Phoenix
 
-## Purpose
+# Product Requirements Document (PRD)
 
-Project Phoenix is an AI-native HTML5 gaming ecosystem designed to provide instant browser gaming for players while offering developers a complete publishing, analytics, monetization, and AI-assisted development platform.
+## 1. Executive Summary
 
-Unlike traditional game portals, Phoenix is conceived as a platform, not merely a catalog of games. The platform emphasizes original and licensed HTML5 games, AI-assisted operations, SEO-first content generation, enterprise-grade engineering, and extensibility.
+Project Phoenix is an **AI-native Digital Gaming Platform** focused
+initially on HTML5 browser games while providing a scalable platform for
+players, developers, administrators, AI services, analytics, SEO-driven
+growth, and future digital commerce.
 
-## Product Vision
+This document defines **what** the product must achieve from a business
+and product perspective. Detailed business capabilities are maintained
+separately in:
 
-Create the most trusted browser gaming platform where:
-- Players instantly discover and enjoy high-quality games.
-- Developers publish and monetize with minimal friction.
-- AI accelerates content creation, moderation, analytics, and engineering.
-- The platform scales globally with cloud-native architecture.
+**PHX-DOC-0005 -- Enterprise Capability Model**
 
-## Business Outcomes
+------------------------------------------------------------------------
 
-- Sustainable recurring revenue
-- Growing developer ecosystem
-- Strong organic traffic
-- Excellent player retention
-- Original intellectual property
+# 2. Product Vision
 
-## Success Criteria
+Create the world's most discoverable AI-assisted HTML5 gaming platform
+where players can instantly play games, developers can easily publish
+content, and platform operators can efficiently manage growth.
 
-- Production-ready MVP
-- Excellent Core Web Vitals
-- High developer satisfaction
-- Measurable engagement and monetization
+------------------------------------------------------------------------
 
----
+# 3. Product Goals
 
-# Chapter 2 – Business Context & Market Opportunity
+-   Deliver instant browser-based gameplay.
+-   Build a self-service developer ecosystem.
+-   Grow primarily through organic search.
+-   Monetize responsibly through advertising and future premium
+    offerings.
+-   Use AI to improve player, developer, and operational experiences.
+-   Build an enterprise-grade platform that can evolve beyond browser
+    games.
 
-## Problem Statement
+------------------------------------------------------------------------
 
-Players expect instant, high-quality browser games without installation. Developers need simple publishing, analytics, discoverability, and monetization. Existing ecosystems often require developers to combine multiple services.
+# 4. Target Users
 
-Project Phoenix unifies these capabilities.
+## Players
 
-## Market Opportunity
+-   Casual gamers
+-   Students
+-   Families
+-   Mobile-first users
 
-Focus initially on:
-- Casual gamers
-- Students
-- Families
-- Indie HTML5 developers
-- Educational game creators
+## Developers
 
-## Differentiators
+-   Independent developers
+-   Small studios
+-   Educational institutions
+-   Enterprise partners
 
-1. AI-native platform
-2. Developer-first tooling
-3. SEO-first architecture
-4. Enterprise engineering standards
-5. Game SDK
-6. Modular architecture
-7. Multi-provider monetization
+## Platform Administrators
 
-## Guiding Principles
+-   Operations
+-   Moderators
+-   Product owners
+-   Business administrators
 
-- Player First
-- Developer First
-- AI as an Accelerator
-- Security by Design
-- Reliability by Design
-- Accessibility by Default
-- Data-driven Decisions
+------------------------------------------------------------------------
 
-## Traceability
+# 5. MVP Scope
 
-Vision -> Goals -> PRD -> Architecture -> Features -> APIs -> Tests
+Included
 
-## Next Chapters
+-   HTML5 game catalog
+-   Game player
+-   Categories
+-   Search
+-   Developer onboarding
+-   Game submission
+-   Game publishing
+-   Admin portal
+-   Google AdSense integration
+-   SEO-ready pages
+-   Analytics
+-   Authentication
+-   Responsive web application
 
-3. Stakeholders
-4. Personas
-5. User Journeys
-6. Feature Catalogue
+Excluded
+
+-   Native mobile apps
+-   Marketplace
+-   Tournaments
+-   Social networking
+-   Premium subscriptions
+-   Multiplayer infrastructure
+
+------------------------------------------------------------------------
+
+# 6. Functional Requirement Summary
+
+## Player Experience
+
+-   Browse games
+-   Search games
+-   Play instantly
+-   Favorites
+-   Recently played
+-   Ratings
+
+## Developer Experience
+
+-   Register
+-   Upload games
+-   Validate packages
+-   Publish games
+-   Analytics dashboard
+
+## Administration
+
+-   Moderate content
+-   Manage developers
+-   Manage games
+-   Platform configuration
+-   Reporting
+
+------------------------------------------------------------------------
+
+# 7. Non-Functional Requirements
+
+-   Performance
+-   Reliability
+-   Security
+-   Accessibility
+-   Scalability
+-   Observability
+-   Availability
+-   Maintainability
+-   AI readiness
+
+------------------------------------------------------------------------
+
+# 8. Business Success Metrics
+
+-   Monthly Active Players
+-   Monthly Active Developers
+-   Published Games
+-   Organic Traffic
+-   Session Duration
+-   Revenue
+-   eCPM
+-   Developer Satisfaction
+
+------------------------------------------------------------------------
+
+# 9. Release Roadmap
+
+## Sprint 0
+
+Repository, governance, standards.
+
+## Sprint 1
+
+Core platform foundation and business architecture.
+
+## Sprint 2
+
+System architecture and technical foundations.
+
+## Sprint 3+
+
+Feature implementation.
+
+------------------------------------------------------------------------
+
+# 10. Risks
+
+-   Slow content acquisition
+-   SEO dependency
+-   Advertising revenue fluctuations
+-   AI provider changes
+-   Platform scalability
+
+------------------------------------------------------------------------
+
+# 11. Dependencies
+
+-   PHX-DOC-0005 Enterprise Capability Model
+-   Architecture Decision Records
+-   Future System Architecture Specification
+
+------------------------------------------------------------------------
+
+# 12. Acceptance Criteria
+
+The MVP shall:
+
+-   Allow users to play HTML5 games in the browser.
+-   Allow developers to self-publish games.
+-   Support advertising monetization.
+-   Be SEO optimized.
+-   Capture analytics.
+-   Provide an administration portal.
+
+------------------------------------------------------------------------
+
+# 13. Related Documents
+
+  Document                 Purpose
+  ------------------------ -----------------------------------
+  PHX-DOC-0005             Enterprise Capability Model
+  PHX-DOC-0006 (planned)   System Architecture Specification
+  ADR Series               Architectural decisions
+
+------------------------------------------------------------------------
+
+# 14. Revision History
+
+  Version   Description
+  --------- ------------------------------------------------------
+  1.0.0     Initial PRD aligned with Enterprise Capability Model
